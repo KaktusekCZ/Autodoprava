@@ -108,7 +108,7 @@ body{
                     content: '';
                     display: block;
                     position: absolute;
-                    bottom: 0px;
+                    top: 0px;
                     height: 2px;
                     width: 100%;
                     left: 50%;
@@ -144,14 +144,15 @@ body{
 
     }
     &__text{
-        font-size: 48px;
-        color: $white-color;
+        font-size: 42px;
+        color: $gray-color;
         font-weight: 300;
         text-transform: uppercase;
         line-height: 1.1;
         span{
             display: block;
             font-weight: 700;
+            font-size: 48px;
         }
     }
 }

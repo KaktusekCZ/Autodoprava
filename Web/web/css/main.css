@@ -246,7 +246,7 @@ body {
   content: '';
   display: block;
   position: absolute;
-  bottom: 0px;
+  top: 0px;
   height: 2px;
   width: 100%;
   left: 50%;
@@ -283,8 +283,8 @@ body {
 }
 
 .header__text {
-  font-size: 48px;
-  color: #fff;
+  font-size: 42px;
+  color: #1c1c1c;
   font-weight: 300;
   text-transform: uppercase;
   line-height: 1.1;
@@ -293,4 +293,5 @@ body {
 .header__text span {
   display: block;
   font-weight: 700;
+  font-size: 48px;
 }
