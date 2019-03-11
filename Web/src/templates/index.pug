@@ -1,0 +1,49 @@
+doctype html
+html(lang='cs')
+	head
+		meta(charset='utf-8')
+		title AW Autodoprava
+		meta(name='description', content='The HTML5 Herald')
+		meta(name='author', content='SitePoint')
+		link(rel='stylesheet', href='css/main.css')
+		link(rel='stylesheet', href='css/icons.min.css')
+	body
+		.top-menu
+			.top-menu__inner.col-8
+				.top-menu__info
+					.top-menu__info__item
+						i.fas.fa-phone
+						span +420 123 456 789
+					.top-menu__info__item
+						i.fas.fa-at
+						span kontakt@aw.cz
+					.top-menu__info__item
+						i.fas.fa-map-marker-alt
+						span U Bytovek 569, Krhová, 756 63
+				.top-menu__social
+					.top-menu__social__item
+						a(href="#")
+							i.fab.fa-facebook
+					.top-menu__social__item
+						a(href="#")
+							i.fab.fa-instagram
+		
+		.menu
+			.menu__wrapper.col-8
+				.menu__inner.menu__inner--left
+					img.menu__logo(src="images/logo.svg", draggable="false")
+				.menu__inner.menu__inner--right
+					ul.menu__list
+						li.menu__list__item
+							a(href="#") O nás
+						li.menu__list__item
+							a(href="#") Služby
+						li.menu__list__item
+							a(href="#") Ceník
+						li.menu__list__item
+							a(href="#") Kontakt
+		.header
+			.header__inner__wrapper
+				.header__inner.col-8
+					.header__text #[span Lorem ipsum]dolor sit amet.
+		script(src='js/main.js')

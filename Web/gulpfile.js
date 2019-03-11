@@ -4,6 +4,7 @@ var gulp = require('gulp'),
         pattern: '*'
     }),
     browserSync = require('browser-sync');
+var pug = require('gulp-pug');
 
 /* Paths to Dev and web environnement for path flexibility*/
 var devPaths = {
@@ -57,7 +58,9 @@ gulp.task('imagemin', function(){
 
 gulp.task('pug', function() {
     return gulp.src(devPaths.tmpl + '/**/*.*')
-        .pipe(plugins.prettify({indent_size: 4, preserve_newlines: true }))
+        .pipe(pug({
+            // Your options in here.
+        }))
         .pipe(gulp.dest(webPaths.tmpl))
         .pipe(browserSync.reload({
             stream: true

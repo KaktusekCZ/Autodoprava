@@ -1,24 +1,13 @@
-@keyframes scroll {
-	0% {
-		transform: translateY(0);
-	}
-	50% {
-		transform: translateY(60px);
-	}
-  100% {
-		transform: translateY(0);
-	}
-}
-
 $counter: 100 / 12;
 
 $white-color: #fff;
 $black-color: #000;
-$primary-color: #dd0f0f;
+$primary-color: #2241b9;
 $gray-color: #1c1c1c;
 $gray-color--light: #d9d9d9;
 $gray-color--dark: #858585;
 $gray-color--lightest: #f5f5f5;
+$gray-color--blue: #f9f9fb;
 
 @mixin transition($transition...) {
     -moz-transition:    $transition;
